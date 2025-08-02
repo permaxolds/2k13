@@ -209,25 +209,19 @@ def InfoAcc(username, gg):
 
     total += 1
     ss = f'''
-𝗣𝗘𝗥𝗠𝗔 𝗦𝗘𝗡𝗗 𝗔 𝗛𝗜𝗧
-
-
-﹌﹌﹌﹌﹌﹌﹌﹌﹌﹌﹌﹌﹌﹌﹌﹌﹌﹌﹌﹌
-
-𝗡𝗔𝗠𝗘 : {full_name}
-𝗨𝗦𝗘𝗥𝗡𝗔𝗠𝗘 : @{username}
-𝗘𝗠𝗔𝗜𝗟 : {username}@gmail.com
-𝗥𝗘𝗦𝗘𝗧 : {rest(username)}
-𝗙𝗢𝗟𝗟𝗢𝗪𝗘𝗥𝗦 : {fows}
-𝗙𝗢𝗟𝗟𝗢𝗪𝗜𝗡𝗚 : {fowg}
-𝗣𝗢𝗦𝗧𝗦 : {pp}
-𝗬𝗘𝗔𝗥 : {date(Id)}
-𝗠𝗘𝗧𝗔 : {meta}
-𝗟𝗜𝗡𝗞 : https://www.instagram.com/{username}
-
-﹌﹌﹌﹌﹌﹌﹌﹌﹌﹌﹌﹌﹌﹌﹌﹌﹌﹌﹌﹌
-
-𝗕𝗬 : @permapy  𝗖𝗛 : @about_perma
+╔═════════ PERMA HIT ═════════╗
+║ Name     : {full_name}
+║ Username : @{username}
+║ Email    : {username}@gmail.com
+║ Reset    : {rest(username)}
+║ Followers: {fows}
+║ Following: {fowg}
+║ Posts    : {pp}
+║ Year     : {date(Id)}
+║ Meta     : {meta}
+║ Link     : instagram.com/{username}
+╚═════════════════════════════╝
+👾 @permapy | 📡 @about_perma
 '''
     with open("100-500 Followers.txt" if 100 <= fows < 500 else "500+ Followers.txt" if fows >= 500 else "0-100 Followers.txt", "a", encoding='utf-8') as file:
         file.write(ss+"\n")
