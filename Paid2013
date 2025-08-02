@@ -1,4 +1,3 @@
-print(f"{Fore.GREEN}✨ Paid tool is now running. Enjoy!")
 import os
 try:import cfonts;from cfonts import render
 except:os.system("pip install python-cfonts")
@@ -60,10 +59,10 @@ def pppp():
     output = f"""
 {dots*2}
 
-𓁼 𝗛𝗜𝗧       -  \x1b[38;5;46m{hits}\x1b[0m
-𓁼 𝗕𝗔𝗗 𝗜𝗡𝗦𝗧𝗔 -  \x1b[38;5;196m{badinsta}\x1b[0m
-𓁼 𝗕𝗔𝗗 𝗠𝗔𝗜𝗟  -  \x1b[38;5;196m{bademail}\x1b[0m
-𓁼 𝗚𝗢𝗢𝗗 𝗜𝗚   -  \x1b[38;5;46m{goodig}\x1b[0m
+🗿 𝗛𝗜𝗧       -  \x1b[38;5;46m{hits}\x1b[0m
+🗿 𝗕𝗔𝗗 𝗜𝗡𝗦𝗧𝗔 -  \x1b[38;5;196m{badinsta}\x1b[0m
+🗿 𝗕𝗔𝗗 𝗠𝗔𝗜𝗟  -  \x1b[38;5;196m{bademail}\x1b[0m
+🗿 𝗚𝗢𝗢𝗗 𝗜𝗚   -  \x1b[38;5;46m{goodig}\x1b[0m
 
 \x1b[38;5;51mby perma era [ @permapy ]       \x1b[0m
 
@@ -214,7 +213,7 @@ def InfoAcc(username, gg):
 𝗣𝗘𝗥𝗠𝗔 𝗦𝗘𝗡𝗗 𝗔 𝗛𝗜𝗧
 
 
-⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘
+﹌﹌﹌﹌﹌﹌﹌﹌﹌﹌﹌﹌﹌﹌﹌﹌﹌﹌﹌﹌
 
 𝗡𝗔𝗠𝗘 : {full_name}
 𝗨𝗦𝗘𝗥𝗡𝗔𝗠𝗘 : @{username}
@@ -227,7 +226,7 @@ def InfoAcc(username, gg):
 𝗠𝗘𝗧𝗔 : {meta}
 𝗟𝗜𝗡𝗞 : https://www.instagram.com/{username}
 
-⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘
+﹌﹌﹌﹌﹌﹌﹌﹌﹌﹌﹌﹌﹌﹌﹌﹌﹌﹌﹌﹌
 
 𝗕𝗬 : @permapy  𝗖𝗛 : @about_perma
 '''
