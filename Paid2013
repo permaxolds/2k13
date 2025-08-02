@@ -58,14 +58,13 @@ def pppp():
 
     output = f"""
 {dots*2}
-
-🗿 𝗛𝗜𝗧       -  \x1b[38;5;46m{hits}\x1b[0m
-🗿 𝗕𝗔𝗗 𝗜𝗡𝗦𝗧𝗔 -  \x1b[38;5;196m{badinsta}\x1b[0m
-🗿 𝗕𝗔𝗗 𝗠𝗔𝗜𝗟  -  \x1b[38;5;196m{bademail}\x1b[0m
-🗿 𝗚𝗢𝗢𝗗 𝗜𝗚   -  \x1b[38;5;46m{goodig}\x1b[0m
-
-\x1b[38;5;51mby perma era [ @permapy ]       \x1b[0m
-
+===== ACCOUNT SCAN =====
+HIT         --> {hits}
+BAD INSTA   --> {badinsta}
+BAD MAIL    --> {bademail}
+GOOD IG     --> {goodig}
+=========================
+by perma era [ @permapy ]
 {dots*2}
 """
 
