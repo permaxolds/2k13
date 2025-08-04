@@ -1,1 +1,1 @@
-print 'file stopped by perma'
+print ('file stopped by perma')
