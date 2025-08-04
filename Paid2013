@@ -1,4 +1,3 @@
-print "ss De randike"
 import os
 try:import cfonts;from cfonts import render
 except:os.system("pip install python-cfonts")
